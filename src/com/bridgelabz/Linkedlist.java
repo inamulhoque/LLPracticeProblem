@@ -34,15 +34,9 @@ public class Linkedlist {
     }
 
     public static void main(String[] args) {
-        byte x = 1;
-        do {
-            System.out.println("Enter data: ");
-            int data = sc.nextInt();
-            getData(data);
-            printData();
-            System.out.println("Do you want to add more data? Yes:1 No:0 ");
-            x = sc.nextByte();
-        } while (x==1);
+        getData(56);
+        getData(30);
+        getData(70);
         printData();
     }
 }
